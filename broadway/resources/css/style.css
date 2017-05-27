@@ -7,9 +7,45 @@ h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
 }
 
 #header {
   background-image: url("../images/the-flatiron-building.png");
-  background-color: red;
+  background-repeat:no-repeat;
+  }
+
+a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+.subtitle {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url("../images/the-flatiron-building.png");
+  padding-top: 3px;
+}
+
+#footer {
+  text-align:left;
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
 }
