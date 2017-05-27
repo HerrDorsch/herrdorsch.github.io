@@ -28,7 +28,7 @@ h3 {
 a {
   color: white;
   font-size: 18px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 p {
@@ -49,3 +49,12 @@ p {
   color: white;
   font-size: 11px;
 }
+
+/* in case that instructions of broadway_redline.jpeg are wrong
+   concerning fontsizes in footer section
+   simple un-comment following selector */
+/*
+#footer a {
+  font-size: 14px;
+}
+*/
