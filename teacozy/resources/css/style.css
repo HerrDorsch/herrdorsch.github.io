@@ -1,0 +1,125 @@
+/* ----- body defaults ----- */
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+h2, h3, h4 {
+  margin: 0px;
+  padding: 10px;
+}
+a:link, a:active, a:visited {
+  color: seashell;
+  text-decoration: none;
+}
+
+/* ----- breadcrumb ----- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  padding-left: 10px;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  opacity: 0.9;
+}
+header a:link, a:active, a:visited {
+  text-decoration: underline;
+}
+header .navItem {
+  padding: 10px;
+}
+header nav {
+  padding-right: 10px;
+}
+
+/* ----- flexboxdefaults ----- */
+.flexboxdefaults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ----- mission section ----- */
+#mission {
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  background-size: cover;
+  margin-bottom: 80px;
+}
+.mission {
+  flex: 1 1 0px;
+  background-color: black;
+  opacity: 0.9;
+ }
+
+ /* ----- main section with tea of the month offerings ----- */
+ #main {
+   max-width: 1000px;
+   margin-bottom: 80px;
+ }
+.totm {
+  flex: 1 0 100%;
+}
+.tea {
+  width: 300px;
+  margin: 10px;
+  padding: 5px;
+}
+.tea img {
+  padding-bottom: 10px;
+}
+.tea span {
+  font-weight: bold;
+}
+
+/* ----- location section with store addresses ----- */
+#location {
+  max-width: 1200px;
+  height: 500px;
+  padding-top: 70px;
+  margin: 0 auto;
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+#location h2 {
+  padding-bottom: 15px;
+}
+.location-box {
+  display: flex;
+  justify-content: center;
+}
+.locations {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* ----- footer section with contact options ----- */
+footer {
+  height: 200px;
+  text-align: center;
+}
+.copyleft {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
