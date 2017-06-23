@@ -6,3 +6,6 @@ My git and github usage during development was below anything healthy. So please
 
 Thanks for watching,
 Have a wonderful time!
+
+---
+https://herrdorsch.github.io/teacozy/
